@@ -1,19 +1,27 @@
-# Odin Recipes
+# Odin Recipes Deluxe
 
-This is a basic recipe website created for The Odin Project Foundations Recipes assignment.
+A polished version of The Odin Project Foundations Recipes assignment.
 
-The project demonstrates:
+## Features
 
-- HTML boilerplate structure
-- Headings and paragraphs
-- Links between pages
-- Images with alt text
-- Unordered and ordered lists
-- A simple multi-page website structure
+- Homepage with three linked recipes
+- Individual recipe pages with description, ingredients, and ordered steps
+- Responsive layout
+- Custom CSS visual design
+- Local SVG illustrations, so the site does not depend on external image hosting
 
-## Pages
+## Project structure
 
-- `index.html`
-- `recipes/mapo-tofu.html`
-- `recipes/tomato-egg.html`
-- `recipes/scallion-oil-noodles.html`
+```text
+odin-recipes-deluxe/
+├── index.html
+├── styles.css
+├── images/
+│   ├── mapo-tofu.svg
+│   ├── tomato-egg.svg
+│   └── scallion-oil-noodles.svg
+└── recipes/
+    ├── mapo-tofu.html
+    ├── tomato-egg.html
+    └── scallion-oil-noodles.html
+```

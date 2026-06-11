@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of tomato egg stir-fry</title>
+  <desc id="desc">A stylized plate of tomato egg stir-fry with glossy tomato pieces, soft eggs, and scallions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff0c6"/>
+      <stop offset="1" stop-color="#ffd2d2"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffe6cf"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="30" stdDeviation="25" flood-color="#74351e" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="175" cy="125" r="92" fill="#ffffff" opacity="0.42"/>
+  <circle cx="744" cy="130" r="112" fill="#f0b84a" opacity="0.22"/>
+  <circle cx="690" cy="518" r="104" fill="#d94f2b" opacity="0.15"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="450" cy="423" rx="330" ry="135" fill="#2f1b13" opacity="0.14"/>
+    <ellipse cx="450" cy="360" rx="328" ry="165" fill="url(#plate)"/>
+    <ellipse cx="450" cy="348" rx="265" ry="112" fill="#fffaf0"/>
+    <g>
+      <path d="M261 335c12-52 82-79 128-44 48 36 18 101-45 110-63 9-96-14-83-66z" fill="#ffd665"/>
+      <path d="M396 275c52-42 139-6 135 58-4 65-99 82-148 49-49-33-39-74 13-107z" fill="#ffe078"/>
+      <path d="M523 340c34-65 131-67 164-10 34 59-50 107-119 95-69-12-79-20-45-85z" fill="#ffd05a"/>
+      <path d="M316 408c45-38 137-28 149 26 11 54-73 82-134 53-61-29-60-41-15-79z" fill="#ffe28a"/>
+    </g>
+    <g fill="#d94f2b">
+      <path d="M281 273c42-25 97-5 106 40 9 45-39 75-86 53-47-22-62-68-20-93z"/>
+      <path d="M490 256c51-28 117 3 123 55 6 53-62 75-111 43-49-32-63-70-12-98z"/>
+      <path d="M588 367c58-10 102 34 84 83-18 49-89 53-124 14-35-39-18-87 40-97z"/>
+      <path d="M369 377c54-18 112 17 109 68-4 51-76 71-119 35-43-36-44-85 10-103z"/>
+    </g>
+    <g fill="#ff8a5f" opacity="0.65">
+      <ellipse cx="332" cy="301" rx="35" ry="16" transform="rotate(24 332 301)"/>
+      <ellipse cx="536" cy="292" rx="42" ry="17" transform="rotate(13 536 292)"/>
+      <ellipse cx="619" cy="408" rx="35" ry="16" transform="rotate(34 619 408)"/>
+      <ellipse cx="416" cy="412" rx="39" ry="15" transform="rotate(-14 416 412)"/>
+    </g>
+    <g fill="#2e8f76">
+      <rect x="287" y="236" width="108" height="12" rx="6" transform="rotate(-21 341 242)"/>
+      <rect x="479" y="226" width="118" height="12" rx="6" transform="rotate(16 538 232)"/>
+      <rect x="577" y="314" width="108" height="12" rx="6" transform="rotate(-12 631 320)"/>
+      <rect x="335" y="482" width="116" height="12" rx="6" transform="rotate(15 393 488)"/>
+    </g>
+    <path d="M188 386c78 104 434 137 533 3" fill="none" stroke="#f0c7a4" stroke-width="8" opacity="0.6"/>
+  </g>
+</svg>

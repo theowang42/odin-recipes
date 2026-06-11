@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mapo Tofu</title>
-</head>
-<body>
-  <a href="../index.html">Home</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapo Tofu | Odin Recipes</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Recipe navigation">
+        <a class="logo" href="../index.html">
+          <span class="logo-mark">O</span>
+          <span>Odin Recipes</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html#recipes">All recipes</a>
+          <a href="tomato-egg.html">Next recipe</a>
+        </div>
+      </nav>
+    </header>
 
-  <h1>Mapo Tofu</h1>
+    <main class="container">
+      <div class="recipe-nav">
+        <a class="back-link" href="../index.html">← Back to home</a>
+        <a class="back-link" href="tomato-egg.html">Tomato Egg →</a>
+      </div>
 
-  <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Mapo%20tofu.JPG"
-    alt="A bowl of red, spicy mapo tofu topped with minced meat and scallions"
-    width="300">
+      <section class="recipe-hero">
+        <div>
+          <p class="eyebrow">Sichuan comfort</p>
+          <h1>Mapo Tofu</h1>
+          <p>
+            Mapo tofu is a spicy, glossy tofu dish built around chili bean paste,
+            aromatics, and a savory sauce. The goal is contrast: soft tofu, rich sauce,
+            fragrant heat, and a clean finish from scallions.
+          </p>
+          <div class="stat-strip">
+            <div class="stat"><span>Time</span><strong>35 min</strong></div>
+            <div class="stat"><span>Serves</span><strong>2–3</strong></div>
+            <div class="stat"><span>Level</span><strong>Medium</strong></div>
+            <div class="stat"><span>Heat</span><strong>High</strong></div>
+          </div>
+        </div>
+        <div class="recipe-image-panel">
+          <img src="../images/mapo-tofu.svg" alt="Stylized bowl of mapo tofu" />
+        </div>
+      </section>
 
-  <h2>Description</h2>
-  <p>
-    Mapo tofu is a Sichuan-style tofu dish built around soft tofu, savory bean paste,
-    chili oil, and a numbing finish from Sichuan peppercorn. It is rich, spicy, and best
-    served over plain steamed rice.
-  </p>
-  <p>
-    This version keeps the technique simple: bloom the aromatics, build a short sauce,
-    simmer the tofu gently, and thicken at the end so the cubes stay soft instead of broken.
-  </p>
+      <section class="recipe-layout">
+        <aside class="panel ingredients">
+          <h2>Ingredients</h2>
+          <ul>
+            <li>400 g soft or medium tofu, cut into cubes</li>
+            <li>120 g ground pork or beef</li>
+            <li>2 tablespoons doubanjiang chili bean paste</li>
+            <li>1 tablespoon fermented black beans, chopped</li>
+            <li>2 cloves garlic, minced</li>
+            <li>1 teaspoon ginger, minced</li>
+            <li>1 cup chicken stock or water</li>
+            <li>1 tablespoon soy sauce</li>
+            <li>1 teaspoon sugar</li>
+            <li>1 tablespoon cornstarch mixed with 2 tablespoons water</li>
+            <li>Scallions and ground Sichuan peppercorns, to finish</li>
+          </ul>
+          <div class="tip"><strong>Tip:</strong> Simmer the tofu gently. Stirring too hard will break the cubes.</div>
+        </aside>
 
-  <h2>Ingredients</h2>
-  <ul>
-    <li>450 g soft or medium tofu, cut into cubes</li>
-    <li>120 g ground pork or beef</li>
-    <li>1 tablespoon doubanjiang, or spicy fermented bean paste</li>
-    <li>2 teaspoons minced garlic</li>
-    <li>1 teaspoon minced ginger</li>
-    <li>1 cup chicken stock or water</li>
-    <li>1 tablespoon soy sauce</li>
-    <li>1 teaspoon sugar</li>
-    <li>1 tablespoon cornstarch mixed with 2 tablespoons water</li>
-    <li>1 teaspoon ground Sichuan peppercorn</li>
-    <li>2 tablespoons cooking oil</li>
-    <li>Chopped scallions, for garnish</li>
-  </ul>
-
-  <h2>Steps</h2>
-  <ol>
-    <li>Bring a small pot of water to a simmer and warm the tofu cubes for 2 minutes, then drain carefully.</li>
-    <li>Heat oil in a pan over medium heat. Add the ground meat and cook until lightly browned.</li>
-    <li>Add doubanjiang, garlic, and ginger. Stir for about 1 minute until the oil turns red and fragrant.</li>
-    <li>Pour in the stock, soy sauce, and sugar. Stir to combine and bring the sauce to a gentle simmer.</li>
-    <li>Add tofu and simmer for 4 to 5 minutes, moving the pan gently instead of stirring aggressively.</li>
-    <li>Add the cornstarch slurry a little at a time until the sauce lightly coats the tofu.</li>
-    <li>Finish with Sichuan peppercorn and scallions. Serve hot with rice.</li>
-  </ol>
-</body>
+        <section class="panel steps">
+          <h2>Steps</h2>
+          <ol>
+            <li>Bring a small pot of salted water to a gentle simmer. Add the tofu cubes for 1 minute, then drain carefully.</li>
+            <li>Heat oil in a wok or skillet. Cook the ground meat until browned and slightly crisp.</li>
+            <li>Add doubanjiang, black beans, garlic, and ginger. Stir-fry until the oil turns red and fragrant.</li>
+            <li>Pour in stock, soy sauce, and sugar. Bring the sauce to a steady simmer.</li>
+            <li>Add tofu and simmer for 5 minutes so the tofu absorbs the sauce.</li>
+            <li>Stir in the cornstarch slurry in two additions until the sauce turns glossy and lightly thickened.</li>
+            <li>Finish with scallions and ground Sichuan peppercorns. Serve hot with rice.</li>
+          </ol>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>

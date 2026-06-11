@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of scallion oil noodles</title>
+  <desc id="desc">A stylized bowl of scallion oil noodles with glossy noodles, scallion strips, and sesame.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e7fff0"/>
+      <stop offset="1" stop-color="#ffe6bb"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1df"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="30" stdDeviation="26" flood-color="#254d3e" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="160" cy="110" r="88" fill="#2e8f76" opacity="0.14"/>
+  <circle cx="765" cy="126" r="110" fill="#f0b84a" opacity="0.22"/>
+  <circle cx="735" cy="510" r="92" fill="#6f3b67" opacity="0.12"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="450" cy="430" rx="318" ry="124" fill="#153d33" opacity="0.13"/>
+    <path d="M158 308c23 163 140 250 292 250s269-87 292-250H158z" fill="url(#bowl)"/>
+    <ellipse cx="450" cy="308" rx="308" ry="105" fill="#fffaf0"/>
+    <ellipse cx="450" cy="304" rx="257" ry="77" fill="#c88735"/>
+    <g fill="none" stroke-linecap="round">
+      <path d="M248 313c83-67 236 70 392-5" stroke="#f5d17b" stroke-width="26"/>
+      <path d="M261 352c105-74 248 66 378-15" stroke="#f7da8b" stroke-width="24"/>
+      <path d="M302 275c115-42 213 50 328 1" stroke="#ffe29b" stroke-width="22"/>
+      <path d="M328 405c106-50 223 41 280-10" stroke="#f0c86f" stroke-width="24"/>
+      <path d="M235 395c70-35 139 22 221 0" stroke="#f8da84" stroke-width="21"/>
+    </g>
+    <g fill="#2e8f76">
+      <rect x="246" y="236" width="139" height="17" rx="8" transform="rotate(-26 315 244)"/>
+      <rect x="435" y="219" width="154" height="17" rx="8" transform="rotate(15 512 228)"/>
+      <rect x="560" y="289" width="131" height="17" rx="8" transform="rotate(-15 625 298)"/>
+      <rect x="330" y="426" width="152" height="17" rx="8" transform="rotate(18 406 435)"/>
+      <rect x="468" y="376" width="128" height="17" rx="8" transform="rotate(-28 532 385)"/>
+    </g>
+    <g fill="#1c6f58" opacity="0.9">
+      <rect x="252" y="262" width="84" height="12" rx="6" transform="rotate(-21 294 268)"/>
+      <rect x="594" y="330" width="75" height="12" rx="6" transform="rotate(23 632 336)"/>
+      <rect x="407" y="396" width="92" height="12" rx="6" transform="rotate(-12 453 402)"/>
+    </g>
+    <g fill="#fff2c4" opacity="0.88">
+      <circle cx="338" cy="311" r="6"/>
+      <circle cx="408" cy="277" r="5"/>
+      <circle cx="516" cy="312" r="6"/>
+      <circle cx="605" cy="354" r="5"/>
+      <circle cx="450" cy="405" r="5"/>
+      <circle cx="553" cy="401" r="6"/>
+      <circle cx="301" cy="382" r="5"/>
+    </g>
+    <path d="M181 329c74 78 464 110 548-1" fill="none" stroke="#c7dfc2" stroke-width="8" opacity="0.65"/>
+  </g>
+</svg>

@@ -1,23 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Odin Recipes</title>
-</head>
-<body>
-  <h2>Odin Recipes</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Recipes | Comfort Food, Polished</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="logo" href="index.html" aria-label="Odin Recipes home">
+          <span class="logo-mark">O</span>
+          <span>Odin Recipes</span>
+        </a>
+        <div class="nav-links">
+          <a href="#recipes">Recipes</a>
+          <a href="recipes/mapo-tofu.html">Mapo Tofu</a>
+          <a href="recipes/tomato-egg.html">Tomato Egg</a>
+        </div>
+      </nav>
+    </header>
 
-  <p>
-    A small collection of practical Chinese home-cooking recipes. Each recipe is written for beginner cooks,
-    with clear ingredients, simple steps, and a finished-dish image.
-  </p>
+    <main>
+      <section class="hero container">
+        <div class="hero-text">
+          <p class="eyebrow">The Odin Project</p>
+          <h1>Three dishes. One sharp HTML project.</h1>
+          <p>
+            A polished recipe collection built for the Foundations Recipes assignment:
+            clean links, clear structure, useful ingredients, ordered steps, and a visual
+            layer that makes the project feel like a real mini food site.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#recipes">Explore recipes</a>
+            <a class="button secondary" href="https://www.theodinproject.com/lessons/foundations-recipes">View assignment</a>
+          </div>
+        </div>
 
-  <h3>Recipes</h3>
-  <ul>
-    <li><a href="./recipes/mapo-tofu.html">Mapo Tofu</a></li>
-    <li><a href="./recipes/tomato-egg.html">Tomato and Egg Stir-Fry</a></li>
-    <li><a href="./recipes/scallion-oil-noodles.html">Scallion Oil Noodles</a></li>
-  </ul>
-</body>
+        <div class="hero-card" aria-label="Featured food illustration">
+          <img class="hero-dish" src="images/mapo-tofu.svg" alt="Stylized bowl of mapo tofu" />
+          <div class="hero-note">
+            <strong>Built with plain HTML and CSS.</strong>
+            <span>No framework, no build tools, no hidden complexity.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" id="recipes">
+        <div class="section-heading">
+          <h2>Featured recipes</h2>
+          <p>
+            Each recipe page includes a description, ingredients, and step-by-step instructions,
+            while keeping navigation simple enough for the Odin assignment.
+          </p>
+        </div>
+
+        <div class="recipe-grid">
+          <a class="recipe-card" href="recipes/mapo-tofu.html">
+            <img src="images/mapo-tofu.svg" alt="Mapo tofu in a bowl" />
+            <div class="card-body">
+              <h3>Mapo Tofu</h3>
+              <p>A bold Sichuan-style dish with soft tofu, chili bean paste, aromatics, and a glossy spicy sauce.</p>
+              <div class="meta-row">
+                <span class="pill">35 min</span>
+                <span class="pill">Spicy</span>
+                <span class="pill">Dinner</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="recipe-card" href="recipes/tomato-egg.html">
+            <img src="images/tomato-egg.svg" alt="Tomato egg stir-fry on a plate" />
+            <div class="card-body">
+              <h3>Tomato Egg</h3>
+              <p>A fast home-style stir-fry with tender scrambled eggs and juicy tomatoes in a light sweet-savory sauce.</p>
+              <div class="meta-row">
+                <span class="pill">15 min</span>
+                <span class="pill">Easy</span>
+                <span class="pill">Weeknight</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="recipe-card" href="recipes/scallion-oil-noodles.html">
+            <img src="images/scallion-oil-noodles.svg" alt="Scallion oil noodles in a bowl" />
+            <div class="card-body">
+              <h3>Scallion Oil Noodles</h3>
+              <p>Springy noodles tossed with fragrant scallion oil, soy sauce, and a deep caramelized aroma.</p>
+              <div class="meta-row">
+                <span class="pill">25 min</span>
+                <span class="pill">Noodles</span>
+                <span class="pill">Comfort</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Made for The Odin Project Foundations Recipes assignment.</p>
+      </div>
+    </footer>
+  </body>
 </html>
